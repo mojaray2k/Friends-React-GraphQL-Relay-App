@@ -4,7 +4,7 @@
   "description": "A react app that uses Relay and GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node ./server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/mojaray2k/Friends-React-GraphQL-Relay-App/issues"
   },
-  "homepage": "https://github.com/mojaray2k/Friends-React-GraphQL-Relay-App#readme"
+  "homepage": "https://github.com/mojaray2k/Friends-React-GraphQL-Relay-App#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.2"
+  }
 }
